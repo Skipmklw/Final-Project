@@ -89,6 +89,81 @@ nav a:hover{
     color: #fff;
 }
 
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: #fdcc04; /* Same background color as the hero section */
+}
+
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Change to a different color, such as white */
+    margin: 0 1rem; /* Adjust margin as needed */
+}
+
+
+.product-image {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+.product-image2 {
+    width: 102%;
+    height: auto;
+    padding: 15px;
+}
+.product-image3 {
+    size: 100px;
+    width: 123%;
+    height: auto;
+    padding: 15px;
+}
+.product-details {
+    padding: 1rem;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.product-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #fdcc04;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #f3bb00;
+}
+
+
 @media screen and (max-width: 768px) {
     .hero-container {
         grid-template-columns: 1fr;
